@@ -6,42 +6,35 @@
     <title>AIkari</title>
     <style>
         .container {
-            width: 1200px;
+            background-color: #222629;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        .button2{
-            background-color: white;
-            display: inline-block  ;
-            text-align: center;
-            font-size: 30px;
-            padding: 10px;
-        }
-        .button2:hover{
-            background-color: white;
-            display: inline-block  ;
-            text-align: center;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+
         .button {
-            display: block;
-            background-color: #029ed1;
-            color: white;
+            display: flex;
+            background-color: #474B4F;
+            color:#EDF5E1;
+            height: 10vh;
             text-align: center;
             padding: 10px 20px;
-            margin-bottom: 10px;
-            border: none;
-            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+            border-radius: 50px;
             cursor: pointer;
+            width:30vw;
         }
         .navbar{
-            margin-bottom: 10px;
+            display: flex;
+          
             text-align: center;
+           justify-content: space-evenly;
+            height: 100px;
+            background-color: #61892F;
         }
         .button:hover {
             background-color: #005875;
@@ -49,24 +42,69 @@
         .button:active{
             background-color: #32003b;
         }
+        .buttonh{
+            font-size: 32px;
+            margin-right: 10px;
+            padding: 10px;
+            text-decoration: none;
+            display: flex;
+            color:#EDF5E1;
+            justify-content: center;
+            align-items: center;
+        }
+        .buttonh:hover{
+            
+            transition:background-color 0.3s ease 0.3s;
+            color: #005875;
+            border-radius: 10%;
+            
+        }
+        .body{
+            margin: 0px;
+            padding: 0;
+        }
+        .image1 {
+            height: 100vh;
+            display: flex;
+            display: flex;
+            justify-content: flex-end; /* Updated property to position the image on the right */
+            align-items: top;
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
     </style>
 </head>
-<body>
+<body class="body">
+    
     <div class="navbar">
-        <div class="button2">
+        <!-- <div class="button2"> -->
             <a href="index.html" class="buttonh" role="button">HOME</a>
-            <a href="AboutUs.html" class="buttonh" role="button">About us</a>
-            <a href="Login.html" class="buttonh" role="button">Login</a>
-            <a href="index.html" class="buttonh" role="button">Sign up</a>
+            <a href="AboutUs.html" class="buttonh" role="button">ABOUT US</a>
+            <a href="Login.html" class="buttonh" role="button">LOGIN</a>
+            <a href="index.html" class="buttonh" role="button">SIGN UP</a>
             
-        </div>
+        <!-- </div> -->
         
     </div>
     <div class="container">
-        <h3>INSTA</h3>
-        <h3>FB</h3>   
-        <h3>WA</h3>   
+        <div class="image1">
+            <div class="buttons">
+            <a href="" class = "button" role="button">Instagram</a>
+            <a href="Fertilizer.html" class = "button" role="button">LinkedIn</a> 
+            </div>
 
+            <div>
+                <img class="image1" src="farmkari.png"> 
+            </div>
+        </div>
+           
+        
     </div>
     
 
